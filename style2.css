@@ -1,0 +1,244 @@
+            body {
+              font-family: sans-serif;
+              margin: 0 auto;
+              background: #fff;
+              color: #333;
+                
+            }
+
+
+
+
+
+
+
+
+            /* HEADER */
+
+
+
+
+            .logo {
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              gap: 10px;  
+              margin-bottom: 20px;
+              padding-top: 20px;
+                letter-spacing: 2px; 
+            }
+
+            .logo:hover {
+                opacity: 0.5;
+            }
+
+            .logo img {
+              height: auto;
+                width: 80px;
+            }
+
+            .logo h1 {
+              color: #0087cc;
+              font-size: 3em;
+              margin: 0;
+            }
+
+
+
+
+
+
+
+        /* BARRE DE NAVIGATION */
+
+
+
+            .top-bar {
+              display: flex;
+              max-width: 1600px;
+              padding: 15px 120px 15px 15px;
+              justify-content: flex-end;
+              align-items: center;
+                flex-wrap: wrap;
+              background-color: #0077b6; 
+            }
+
+
+            nav ul {
+              list-style: none;
+              display: flex;
+              gap : 40px;
+              padding: 0;
+              margin: 0;
+            }
+
+            nav  {
+                min-width: 400px;
+            }
+
+
+            nav a {
+                color: white;
+                text-decoration: none;
+            }
+
+            nav a:hover {
+                color : #ddd;
+            }
+
+
+
+
+
+
+
+
+        
+            /* MAIN */
+
+
+            main {
+              max-width: 1600px;
+              margin: 20px auto;
+              padding: 0 40px;
+              width : 85%;
+                
+            }
+
+            .articles {
+                display : flex;
+                gap : 20px;
+                flex-wrap: wrap;
+                
+            }
+
+            .articles article {
+                flex: 1 1 30%;      /* flex-grow: 1; flex-shrink: 1; flex-basis: 30% */
+                 display: flex;
+                flex-direction: column;
+            
+            }
+
+
+
+            .date {
+              color: #929292cc;
+              font-size: 0.9em;
+                margin: 0;
+            }
+ 
+
+            h2 {
+              font-size: 1.5em;
+              margin-top: 5px;
+              color: #003366;
+              font-weight: 300;
+            }
+
+
+            article img {
+              width: 100%;
+              height: auto;
+                margin-bottom: 5px;
+            }
+
+            article figcaption {
+              color: #0087cc;
+              text-decoration: none;
+              display: block;
+              margin-bottom: 10px;
+              font-family: serif;
+              font-size: 1em;
+            }
+
+                
+            figure {
+                margin : 5px;
+            }
+          
+
+            h2 a {
+                color:#0087cc;
+                text-decoration-line: none;
+                font-weight: bold;
+            }
+
+            p { 
+                color : #555;
+                text-align: left;
+                font-size: 15px;
+            }
+
+
+            .titre-lien:hover {
+                color: #ff7b29;
+            }
+
+            h1 { 
+                font-weight: 200;
+            }
+
+
+            span { color : #0087cc;}
+
+
+
+
+
+
+
+
+
+            /* FOOTER */
+
+
+            footer {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 30px 20px;
+                color: #555;
+                font-size: 0.9em;
+            }
+
+
+            footer strong a {
+              color: #0087cc;
+                font-size: 20px;
+                text-decoration: none;
+            }
+
+
+            footer img:hover {
+                opacity: 0.5;
+            }
+
+
+            .socials { 
+                margin-top : 15px;
+            }    
+
+
+            footer div { 
+                text-align: center;
+               
+            }
+
+            footer div strong { 
+                font-size: 20px;
+            }
+
+            footer b  { 
+                font-size: 16px;
+                color : #555;
+            }   
+
+            .gris {
+                color: #555;
+            }
+            
+            
+ 
+
+
+
