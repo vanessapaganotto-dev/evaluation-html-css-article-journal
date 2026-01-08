@@ -74,8 +74,5 @@ Vanessa PAGANOTTO
 
 ## Licence
 
-Projet personnel — libre d’utilisation à des fins d’apprentissage.
+Ce projet est sous licence MIT.
 
----
-
-*Merci de votre visite !*
